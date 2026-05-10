@@ -6,7 +6,7 @@ package com.mycompany.gestiondebiblioteca;
 
 /**
  *
- * @author Usuario
+ * @author kathy577
  */
 public class Libro extends MaterialBiblioteca implements Prestable {
     private String autor;
