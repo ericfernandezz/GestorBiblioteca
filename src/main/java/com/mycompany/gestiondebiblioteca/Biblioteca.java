@@ -27,7 +27,7 @@ public class Biblioteca {
     //Listar: Recorre la lista y muestra todo
     public void listarMateriales() {
         if (materiales.isEmpty()) {
-            System.out.println("La biblioteca está vacía.");
+            System.out.println("La biblioteca esta vacia.");
         } else {
             for (MaterialBiblioteca m : materiales) {
                 System.out.println(m.toString());
