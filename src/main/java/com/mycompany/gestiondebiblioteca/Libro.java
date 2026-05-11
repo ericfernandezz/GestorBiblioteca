@@ -48,7 +48,7 @@ public class Libro extends MaterialBiblioteca implements Prestable {
     //Devolucion de informacion del libro
     @Override
     public String toString(){
-        return "Título: " + titulo + " | Autor: " + autor + " | Año: " + añio + " | Estado: " + (prestado ? "Prestado" : "Disponible");
+        return "Titulo: " + titulo + " | Autor: " + autor + " | Anio: " + añio + " | Estado: " + (prestado ? "Prestado" : "Disponible");
     }
     
 }
