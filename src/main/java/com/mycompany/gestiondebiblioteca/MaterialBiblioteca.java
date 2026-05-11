@@ -27,6 +27,6 @@ public abstract class MaterialBiblioteca implements Prestable {
     @Override
     public String toString() {
         String estado = (prestado) ? "Prestado" : "Disponible";
-        return "Título: " + titulo + " | Año: " + añio + " | Estado: " + estado;
+        return "Titulo: " + titulo + " | Anio: " + añio + " | Estado: " + estado;
     }
 }
