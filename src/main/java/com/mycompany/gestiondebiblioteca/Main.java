@@ -38,7 +38,7 @@ public class Main {
                 case 1:
                     System.out.print("Ingrese titulo: ");
                     String titulo = sc.nextLine();
-                    System.out.print("Ingrese año: ");
+                    System.out.print("Ingrese anio: ");
                     int anio = sc.nextInt();
                     sc.nextLine();
                     System.out.print("Ingrese autor: ");
