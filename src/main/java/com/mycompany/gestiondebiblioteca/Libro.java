@@ -12,8 +12,8 @@ public class Libro extends MaterialBiblioteca implements Prestable {
     private String autor;
     
    //constructor: recibe titulo,año y autor.Llama a la clase madre
-    public Libro (String titulo, int añio , String autor){
-        super(titulo,añio);
+    public Libro (String titulo, int anio , String autor){
+        super(titulo,anio);
         this.autor = autor;
     
     }
@@ -48,7 +48,7 @@ public class Libro extends MaterialBiblioteca implements Prestable {
     //Devolucion de informacion del libro
     @Override
     public String toString(){
-        return "Titulo: " + titulo + " | Autor: " + autor + " | Anio: " + añio + " | Estado: " + (prestado ? "Prestado" : "Disponible");
+        return "Titulo: " + titulo + " | Autor: " + autor + " | Anio: " + anio + " | Estado: " + (prestado ? "Prestado" : "Disponible");
     }
     
 }

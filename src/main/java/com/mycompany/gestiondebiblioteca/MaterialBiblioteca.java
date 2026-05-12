@@ -11,12 +11,12 @@ package com.mycompany.gestiondebiblioteca;
 public abstract class MaterialBiblioteca implements Prestable { 
     
     protected String titulo;
-    protected int añio;
+    protected int anio;
     protected boolean prestado;
 
-    public MaterialBiblioteca(String titulo, int añio) {
+    public MaterialBiblioteca(String titulo, int anio) {
         this.titulo = titulo;
-        this.añio = añio;
+        this.anio = anio;
         this.prestado = false; 
     }
 
@@ -27,6 +27,6 @@ public abstract class MaterialBiblioteca implements Prestable {
     @Override
     public String toString() {
         String estado = (prestado) ? "Prestado" : "Disponible";
-        return "Titulo: " + titulo + " | Anio: " + añio + " | Estado: " + estado;
+        return "Titulo: " + titulo + " | Anio: " + anio + " | Estado: " + estado;
     }
 }
