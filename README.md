@@ -7,6 +7,14 @@ En este se aplican clases abstractas e interfaces que heredan y polimorfizan par
 #Instrucciones de ejecución 
 1. Copilar : `javac src/main/java/com/mycompany/gestiondebiblioteca/*.java`
 2. Ejecutar: `java com.mycompany.gestiondebiblioteca.Main`
+3.  Seleccionar la clase Main.java como punto de entrada.Presionar Run Project (F6).El menú interactivo aparecerá en la consola de NetBeans.
+4.  Al ejecutar el programa, aparece un menú con las siguientes opciones:
+    - Agregar libro : El sistema pide: título, año y autor.Se crea un objeto Libro y se agrega a la biblioteca.Ejemplo: Ingrese título: El Quijote → Año: 1605 → Autor: Cervantes.
+    - Listar materiales : Muestra todos los materiales guardados en la biblioteca.Cada material se imprime usando su método toString() con título, autor, año y estado (Prestado/Disponible).
+    - Buscar por título : Solicita un título y busca en la colección.Si lo encuentra, muestra la información del material.Si no, informa que no existe.
+    - Prestar material : Solicita el título del material.Si está disponible, cambia su estado a “Prestado”.Si ya estaba prestado, muestra un mensaje de error.
+    - Devolver material :Solicita el título del material.Si estaba prestado, cambia su estado a “Disponible”.Si no estaba prestado, informa que no se puede devolver.
+    - Salir : Finaliza el programa mostrando el mensaje: “Saliendo del sistema…”
 
 #Estructura del proyecto 
   #Clases
@@ -17,8 +25,8 @@ En este se aplican clases abstractas e interfaces que heredan y polimorfizan par
    - Menú Interactivo : Main.java
 
 #Integrantes
- 1-  : Clase abstracta base + Interfaz + Gestor de materiales
- 2-  : Menú Interactivo 
+ 1- Fernandez Eric : Clase abstracta base + Interfaz + Gestor de materiales
+ 2- Nievas Simon : Menú Interactivo 
  3- Martinez Katherina : Clase Libro 
 
 #Desafíos del proyecto
